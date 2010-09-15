@@ -1,0 +1,38 @@
+Sinatra proof of concept application for Ken!
+
+sqlite3 for data persistence
+datamapper for ORM
+
+to run the app: shotgun tidbits.rb
+
+gems
+
+addressable (2.2.0)
+data_mapper (1.0.0)
+data_objects (0.10.2)
+datamapper (1.0.0)
+dm-aggregates (1.0.0)
+dm-constraints (1.0.0)
+dm-core (1.0.0)
+dm-do-adapter (1.0.0)
+dm-migrations (1.0.0)
+dm-serializer (1.0.0)
+dm-sqlite-adapter (1.0.0)
+dm-timestamps (1.0.0)
+dm-transactions (1.0.0)
+dm-types (1.0.0)
+dm-validations (1.0.0)
+do_sqlite3 (0.10.2)
+extlib (0.9.15)
+fastercsv (1.5.3)
+json_pure (1.4.6)
+rack (1.2.1)
+rake (0.8.7)
+rdoc (2.5.8)
+shotgun (0.8)
+sinatra (1.0)
+stringex (1.1.0)
+uuidtools (2.1.1)
+
+
+MIT License

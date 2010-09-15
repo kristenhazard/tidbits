@@ -1,0 +1,15 @@
+<h2>Topics</h2>
+
+<table border="0" cellpadding="0" cellspacing="10" class="list">
+<% @topics.each_with_index do |t,i| %>
+	<tr<%= ' class="alt"' if i%2==0 %>>
+	  <td><a href="/show/<%= t.id %>"><%= t.id %></a></td>
+	  <td><%= t.name %></td>
+	  <td><%= t.description %></td>
+	  <td><%= t.url %></td>
+	  <td><%= t.is_active %></td>
+	  <td><%= t.created_at %></td>
+	  <td><%= t.updated_at %></td>
+		<td><a href="/delete/<%= t.id %>">delete</a></td>
+<% end %>
+</table>

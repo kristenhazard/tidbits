@@ -1,0 +1,21 @@
+/* @override http://localhost:9393/css/main.css */
+
+body {
+	margin: 40px;
+	font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	height: 20px;
+	margin-top: -20px;
+	margin-left: 70px;
+}
+
+li {
+	position: relative;
+	float: left;
+	white-space: nowrap;
+	padding: 5px;
+}
